@@ -29,6 +29,7 @@ class ShoeFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_shoe, container, false)
 
         binding.btnAddShoe.setOnClickListener {
+
             it.findNavController().navigate(R.id.action_shoeFragment_to_shoeDetailsFragment)
 
         }

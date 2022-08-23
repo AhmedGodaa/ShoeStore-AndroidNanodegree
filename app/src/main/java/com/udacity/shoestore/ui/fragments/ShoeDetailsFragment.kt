@@ -26,6 +26,12 @@ class ShoeDetailsFragment : Fragment() {
         binding =
             DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_details, container, false)
         binding.btnAdd.setOnClickListener {
+            viewModel.addShoe(
+                binding.inputShoeName.text.toString(),
+                binding.inputSize.text.toString(),
+                binding.inputCompany.text.toString(),
+                binding.inputDescription.text.toString(),
+            )
 
             this.findNavController().navigate(R.id.action_shoeDetailsFragment_to_shoeFragment)
         }
