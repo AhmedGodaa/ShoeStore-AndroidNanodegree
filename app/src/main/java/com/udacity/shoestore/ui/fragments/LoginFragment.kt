@@ -26,9 +26,6 @@ class LoginFragment : Fragment() {
             it.findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
         }
 
-
-
-
         return binding.root
     }
 
