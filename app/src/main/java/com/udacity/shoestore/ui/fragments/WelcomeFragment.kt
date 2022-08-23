@@ -20,8 +20,8 @@ class WelcomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_welcome, container, false)
-        binding.continueBtn.setOnClickListener{
-//            it.findNavController().navigate(R.id.)
+        binding.continueBtn.setOnClickListener {
+            it.findNavController().navigate(R.id.action_welcomeFragment_to_instructionFragment)
         }
 
         return binding.root
