@@ -19,7 +19,7 @@ class InstructionFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_login, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_instruction, container, false)
 
         return binding.root
     }

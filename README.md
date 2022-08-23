@@ -68,7 +68,7 @@ Open the starter project in Android Studio
     * A Cancel button with an action to navigate back to the shoe list screen
     * A Save button with an action to navigate back to the shoe list screen and add a new Shoe to the Shoe View Model
 
-12. Make sure you can’t go back to onboarding screens
+12. Make sure you can’t go back to onBoarding screens
 
 13. In the Shoe List screen:
 

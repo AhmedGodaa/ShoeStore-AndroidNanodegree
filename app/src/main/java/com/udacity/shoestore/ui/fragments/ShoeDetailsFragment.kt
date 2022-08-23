@@ -6,23 +6,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.navigation.findNavController
 import com.udacity.shoestore.R
-import com.udacity.shoestore.databinding.FragmentWelcomeBinding
+import com.udacity.shoestore.databinding.FragmentShoeDetailsBinding
 
-
-class WelcomeFragment : Fragment() {
-    lateinit var binding: FragmentWelcomeBinding
-
+class ShoeDetailsFragment : Fragment() {
+    lateinit var binding: FragmentShoeDetailsBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_welcome, container, false)
-        binding.continueBtn.setOnClickListener{
-//            it.findNavController().navigate(R.id.)
-        }
+    ): View? {
+        // Inflate the layout for this fragment
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_details, container, false)
 
         return binding.root
     }
