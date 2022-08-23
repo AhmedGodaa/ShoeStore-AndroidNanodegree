@@ -23,7 +23,7 @@ class ShoeViewModel : ViewModel() {
 
 
 
-    fun addShoe(name: String, size: String, company: String, description: String) {
+    fun addShoe() {
         _shoes.value?.add(Shoe(name, size, company, description))
 
     }
