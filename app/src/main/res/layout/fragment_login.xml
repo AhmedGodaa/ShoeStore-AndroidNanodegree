@@ -68,7 +68,7 @@
             android:id="@+id/btnSignUp"
             android:layout_width="88dp"
             android:layout_height="55dp"
-            android:text="@string/sign_in"
+            android:text="@string/sign_up"
             android:textAllCaps="false"
             app:backgroundTint="@color/colorPrimary"
             app:layout_constraintBaseline_toBaselineOf="@+id/btnSignIn"
