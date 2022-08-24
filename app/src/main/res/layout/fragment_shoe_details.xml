@@ -22,7 +22,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
             android:hint="@string/shoes_name"
-
             android:text="@={viewModel.name}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:hint="Input Size"
+            android:hint="@string/input_size"
             android:text="@={viewModel.size}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +44,7 @@
             android:layout_height="wrap_content"
 
             android:layout_margin="30dp"
-            android:hint="Input Company"
+            android:hint="@string/input_company"
             android:text="@={viewModel.company}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -55,9 +54,8 @@
             android:id="@+id/inputDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:layout_margin="30dp"
-            android:hint="Input Description"
+            android:hint="@string/input_description"
             android:text="@={viewModel.description}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -69,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:backgroundTint="@color/colorPrimary"
-            android:text="Add"
+            android:text="@string/add"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputCompany" />
 

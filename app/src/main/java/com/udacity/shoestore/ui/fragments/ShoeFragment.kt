@@ -39,8 +39,11 @@ class ShoeFragment : Fragment() {
             Observer {
                 for (shoe in viewModel.shoes.value!!) {
                     val shoeBinding = ShoeItemBinding.inflate(layoutInflater)
-                    shoeBinding.itemText.text =
-                        shoe.name + "\n" + shoe.size+"\n" + shoe.company +"\n"+ shoe.description+"\n"
+                    shoeBinding.itemName.text = shoe.name
+                    shoeBinding.itemSize.text = shoe.size
+                    shoeBinding.itemCompany.text = shoe.company
+                    shoeBinding.itemDescription.text = shoe.description
+
                     binding.shoeContainer.addView(shoeBinding.root)
                 }
 

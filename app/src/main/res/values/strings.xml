@@ -14,4 +14,8 @@
     <string name="instruction_message">shoe store is application where you can buy or sell shoes</string>
     <string name="done">Done</string>
     <string name="shoes_name">Shoes Name</string>
+    <string name="input_description">Input Description</string>
+    <string name="input_company">Input Company</string>
+    <string name="input_size">Input Size</string>
+    <string name="add">Add</string>
 </resources>
