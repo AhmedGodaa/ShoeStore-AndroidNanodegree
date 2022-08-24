@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:app="http://schemas.android.com/apk/res-auto">
-
+    <!--FrameLayout: as default of fragment it use frameLayout,
+        Usage: FrameLayout is designed to block out an area on the screen to display a single item-->
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.fragments.InstructionFragment">
-
+        <!-- We Used Constraint Layout Cause simple flat view hierarchy
+         it contains two textview and single button -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">

@@ -10,7 +10,8 @@
             name="viewModel"
             type="com.udacity.shoestore.ui.viewmodels.ShoeViewModel" />
     </data>
-
+    <!-- We Used Constraint Layout Cause simple flat view hierarchy
+             it contains few items three EditText and two Buttons -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

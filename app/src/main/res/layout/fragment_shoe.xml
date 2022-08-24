@@ -2,12 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <!--FrameLayout: as default of fragment it use frameLayout,
+           Usage: FrameLayout is designed to block out an area on the screen to display a single item-->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.fragments.ShoeFragment">
-
+        <!-- We Used Constraint Layout Cause simple flat view hierarchy  -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -21,12 +22,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-
+                <!--  LinearLayout: for aligns all children in a single direction all component  are stacked one after the other vertically -->
                 <LinearLayout
                     android:id="@+id/shoeContainer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"/>
+                    android:orientation="vertical" />
             </ScrollView>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
